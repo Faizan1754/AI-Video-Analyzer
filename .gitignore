@@ -1,0 +1,141 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+*.out
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+downloads/
+uploads/
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Model Files
+# (Remove these lines if you
+# intentionally store models)
+# ==========================
+models/
+checkpoints/
+weights/
+
+# ==========================
+# Whisper
+# (Comment this out if you
+# want to cache models locally)
+# ==========================
+.whisper/
+
+# ==========================
+# ChromaDB
+# ==========================
+chroma_db/
+vectorstore/
+persist_directory/
+vector_db/
+
+# ==========================
+# FAISS
+# ==========================
+*.faiss
+*.pkl
+
+# ==========================
+# Generated Files
+# ==========================
+*.pdf
+*.docx
+*.csv
+
+# ==========================
+# Media Files
+# ==========================
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Coverage
+# ==========================
+.coverage
+htmlcov/
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+*.crt
+
+# ==========================
+# Misc
+# ==========================
+*.sqlite3
+*.db

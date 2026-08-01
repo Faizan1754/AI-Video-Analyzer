@@ -1,0 +1,163 @@
+# ==========================
+# Core AI & LLM
+# ==========================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-mistralai
+
+# ==========================
+# Vector Database
+# ==========================# ===== Core UI =====
+streamlit==1.38.0
+
+# ===== YouTube / Audio Handling =====
+yt-dlp==2024.8.6
+pydub==0.25.1
+ffmpeg-python==0.2.0
+
+# ===== Speech-to-Text (Local Whisper) =====
+faster-whisper==1.0.3
+torch==2.4.0
+torchaudio==2.4.0
+
+# ===== Translation (Hindi -> English) =====
+# Choose one depending on your implementation:
+googletrans==4.0.0-rc1
+# deep-translator==1.11.4   # alternative, more stable than googletrans
+
+# ===== LangChain + Mistral (LCEL pipeline) =====
+langchain==0.2.14
+langchain-core==0.2.36# ===== Core UI =====
+streamlit==1.38.0
+
+# ===== YouTube / Audio Handling =====
+yt-dlp==2024.8.6
+pydub==0.25.1
+ffmpeg-python==0.2.0
+
+# ===== Speech-to-Text (Local Whisper) =====
+openai-whisper==20231117
+torch==2.4.0
+torchaudio==2.4.0
+
+# ===== Translation (Hindi -> English) =====
+# Choose one depending on your implementation:
+googletrans==4.0.0-rc1
+# deep-translator==1.11.4   # alternative, more stable than googletrans
+
+# ===== LangChain + Mistral (LCEL pipeline) =====
+langchain==0.2.14
+langchain-core==0.2.36
+langchain-community==0.2.12
+langchain-mistralai==0.1.12
+
+# ===== RAG: Vector DB + Embeddings =====
+chromadb==0.5.5
+sentence-transformers==3.0.1
+langchain-huggingface==0.0.3
+huggingface-hub==0.24.6
+
+# ===== PDF / TXT Export =====
+reportlab==4.2.2
+fpdf2==2.7.9
+
+# ===== Utilities =====
+python-dotenv==1.0.1
+tiktoken==0.7.0
+numpy==1.26.4
+requests==2.32.3
+tqdm==4.66.5
+langchain-community==0.2.12
+langchain-mistralai==0.1.12
+
+# ===== RAG: Vector DB + Embeddings =====
+chromadb==0.5.5
+sentence-transformers==3.0.1
+langchain-huggingface==0.0.3
+huggingface-hub==0.24.6
+
+# ===== PDF / TXT Export =====
+reportlab==4.2.2
+fpdf2==2.7.9
+
+# ===== Utilities =====
+python-dotenv==1.0.1
+tiktoken==0.7.0
+numpy==1.26.4
+requests==2.32.3
+tqdm==4.66.5
+chromadb
+
+# ==========================
+# Embeddings
+# ==========================
+sentence-transformers
+huggingface-hub
+
+# ==========================
+# Whisper Transcription
+# ==========================
+openai-whisper
+torch
+torchaudio
+ffmpeg-python
+
+# ==========================
+# Translation
+# ==========================
+deep-translator
+
+# Alternative (optional)
+# googletrans==4.0.0rc1
+
+# ==========================
+# PDF Export
+# ==========================
+reportlab
+
+# ==========================
+# Streamlit UI
+# ==========================
+streamlit
+
+# ==========================
+# Data Processing
+# ==========================
+pandas
+numpy
+
+# ==========================
+# Utilities
+# ==========================
+python-dotenv
+pydantic
+tqdm
+
+# ==========================
+# YouTube Audio Download
+# ==========================
+yt-dlp
+
+# ==========================
+# Audio Processing
+# ==========================
+pydub
+
+# ==========================
+# Token Counting
+# ==========================
+tiktoken
+
+# ==========================
+# HTTP Requests
+# ==========================
+requests
+
+# ==========================
+# Optional Better OCR/Text
+# ==========================
+unstructured
